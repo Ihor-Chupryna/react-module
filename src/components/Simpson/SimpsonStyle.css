@@ -1,0 +1,17 @@
+.simpson-wrapper {
+    margin-left: 35px;
+}
+
+.simpson-content {
+    display: flex;
+    border-bottom: 2px solid tomato;
+}
+
+p {
+    font-size: 20px;
+}
+
+img {
+    width: 250px;
+    height: 350px;
+}

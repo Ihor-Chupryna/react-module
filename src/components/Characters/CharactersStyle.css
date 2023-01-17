@@ -1,0 +1,6 @@
+.characters-wrapper {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-around;
+    background: khaki;
+}
