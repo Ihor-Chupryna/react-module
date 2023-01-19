@@ -1,7 +1,14 @@
+import {useState} from "react";
+
+import {Posts, Users} from "./components";
+
 const App = () => {
+    const [userId, setUserId] = useState(null);
+
     return (
         <div>
-           lesson-2
+            <Users setUserId={setUserId}/>
+            {userId && <Posts userId={userId}/>}
         </div>
     );
 };

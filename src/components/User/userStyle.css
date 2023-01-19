@@ -1,0 +1,12 @@
+.user-wrapper {
+    display: flex;
+    border-bottom: 1px solid tomato;
+    align-items: center;
+    column-gap: 35px;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+}
