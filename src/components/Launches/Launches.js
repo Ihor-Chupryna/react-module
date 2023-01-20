@@ -8,12 +8,14 @@ const Launches = () => {
     const [launches, setLaunches] = useState([]);
 
     useEffect(() => {
-        launchService.allLaunches().then(value => value.data).then(value => setLaunches(value.filter(value => value.launch_year !== '2020')))
+        launchService.allLaunches().then(value => value.data).then(value => setLaunches([...value]))
     }, [])
 
     return (
         <div className={'launches-list'}>
-            {launches.map(value => <Launch key={value.flight_number} launch={value}/>)}
+            {launches
+                .filter(value => value.launch_year !== '2020')
+                .map(value => <Launch key={value.flight_number} launch={value}/>)}
         </div>
     );
 };
