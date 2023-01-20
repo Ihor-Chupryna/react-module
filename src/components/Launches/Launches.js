@@ -1,8 +1,8 @@
-import {useEffect, useState} from "react";
+import { useEffect, useState } from "react";
 
 import './LaunchesStyle.css';
-import {Launch} from "../Launch/Launch";
-import {launchService} from "../../services";
+import { Launch } from "../Launch/Launch";
+import { launchService } from "../../services";
 
 const Launches = () => {
     const [launches, setLaunches] = useState([]);
@@ -20,4 +20,4 @@ const Launches = () => {
     );
 };
 
-export {Launches};
+export { Launches };

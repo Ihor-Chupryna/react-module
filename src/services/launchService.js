@@ -1,4 +1,4 @@
-import {axiosService} from "./axiosService";
+import { axiosService } from "./axiosService";
 
 const launchService = {
     allLaunches: () => axiosService.get('/launches/')

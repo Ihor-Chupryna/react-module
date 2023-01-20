@@ -1,4 +1,4 @@
-import {Launches} from "./components";
+import { Launches } from "./components";
 
 const App = () => {
     return (
@@ -8,4 +8,4 @@ const App = () => {
     );
 };
 
-export {App};
+export { App };
