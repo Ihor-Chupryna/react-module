@@ -3,5 +3,5 @@ export const getUsers = () => {
 }
 
 export const getUser = (id) => {
-    return fetch(`'https://jsonplaceholder.typicode.com/users/${id}`)
+    return fetch(`https://jsonplaceholder.typicode.com/users/${id}`).then(resp => resp.json())
 }

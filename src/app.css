@@ -1,0 +1,15 @@
+.App {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.info-block {
+    margin: 0 auto;
+}
+
+.divider {
+    height: 100vh;
+    width: 0;
+    border: 1px solid black;
+}
