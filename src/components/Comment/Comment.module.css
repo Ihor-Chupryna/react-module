@@ -1,0 +1,13 @@
+.comment {
+    background: khaki;
+    box-sizing: border-box;
+    padding: 5px 5px 5px 10px;
+    margin: 5px;
+    border-left: 5px solid tomato;
+}
+
+.comment button {
+    background: coral;
+    width: 100px;
+    height: 25px;
+}
