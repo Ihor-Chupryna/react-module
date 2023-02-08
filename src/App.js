@@ -1,9 +1,17 @@
+import { CarForm, Cars } from "./components";
+import { useSelector } from "react-redux";
+
 const App = () => {
+    const { loading } = useSelector(state => state.cars);
+
     return (
         <div>
-       master
+            <CarForm/>
+            <hr/>
+            {loading && <h1>Loading......</h1>}
+            <Cars/>
         </div>
     );
 };
 
-export {App};
+export { App };
